@@ -1,0 +1,130 @@
+feb 21, 2019 9:14:47 AM conexion.InicioSesion iniciarSesion
+ADVERTENCIA: Usuario o contraseña incorrectos.
+feb 21, 2019 9:14:47 AM y.Login lambda$btnAccederActionPerformed$0
+ADVERTENCIA: No se pudo iniciar sesión.
+feb 21, 2019 9:14:53 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+feb 21, 2019 9:14:53 AM y.Login lambda$btnAccederActionPerformed$0
+ADVERTENCIA: No se pudo iniciar sesión.
+feb 21, 2019 9:15:08 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+feb 21, 2019 9:24:37 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+feb 21, 2019 9:26:06 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+feb 21, 2019 9:26:07 AM dao.Parametros listarParametros
+GRAVE: Error al intentar listar parámetros: 
+java.sql.SQLException: Column 'p.interes' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1077)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5174)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:263)
+	at dao.Parametros.listarParametros(Parametros.java:123)
+	at interfaces.Parametros.<init>(Parametros.java:27)
+	at interfaces.PrincipalAdmin.accionar(PrincipalAdmin.java:159)
+	at interfaces.PrincipalAdmin.btnConfigActionPerformed(PrincipalAdmin.java:786)
+	at interfaces.PrincipalAdmin.access$2900(PrincipalAdmin.java:16)
+	at interfaces.PrincipalAdmin$22.actionPerformed(PrincipalAdmin.java:567)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.JToggleButton$ToggleButtonModel.setPressed(JToggleButton.java:308)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+feb 25, 2019 10:01:29 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 06, 2019 7:34:54 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 08, 2019 9:55:03 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 22, 2019 4:06:58 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 25, 2019 2:40:23 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 28, 2019 11:26:53 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 28, 2019 11:51:58 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 28, 2019 3:09:12 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 28, 2019 4:20:42 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 28, 2019 4:34:58 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+mar 29, 2019 4:11:35 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 01, 2019 10:34:25 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 02, 2019 9:41:19 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 02, 2019 9:42:27 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 02, 2019 11:05:35 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 02, 2019 11:59:56 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 03, 2019 7:59:43 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 03, 2019 4:47:00 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 03, 2019 4:47:22 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 05, 2019 2:44:24 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 05, 2019 2:50:22 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 05, 2019 3:03:19 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 05, 2019 3:08:02 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 05, 2019 3:57:21 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 05, 2019 3:57:29 PM net.sf.jasperreports.engine.query.JRJdbcQueryExecuter <init>
+ADVERTENCIA: The supplied java.sql.Connection object is null.
+abr 05, 2019 4:41:07 PM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 08, 2019 7:23:10 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 08, 2019 7:23:28 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 08, 2019 7:37:59 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+abr 26, 2019 8:11:29 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.
+jun 03, 2019 8:12:03 AM conexion.InicioSesion iniciarSesion
+INFORMACIÓN: admin inició sesión.

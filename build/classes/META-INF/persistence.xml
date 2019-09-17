@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="YPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>pojos.Empresa</class>
+    <class>pojos.Usuarios</class>
+    <class>pojos.Cuotas</class>
+    <class>pojos.Parametros</class>
+    <class>pojos.Cuentas</class>
+    <class>pojos.Lecturas</class>
+    <class>pojos.Medidores</class>
+    <class>pojos.Comprobantes</class>
+    <class>pojos.Lotefacturas</class>
+    <class>pojos.Lotepagos</class>
+    <class>pojos.Users</class>
+    <class>pojos.Pagos</class>
+    <class>pojos.Refinanciaciones</class>
+    <class>pojos.DetallePago</class>
+    <class>clases.arboles.Refinanciaciones</class>
+    <class>clases.arboles.Lecturas</class>
+    <class>clases.arboles.Medidores</class>
+    <class>clases.arboles.Cuentas</class>
+    <class>clases.arboles.Cuotas</class>
+    <class>clases.arboles.Comprobantes</class>
+    <class>clases.arboles.Parametros</class>
+    <class>clases.arboles.Empresa</class>
+    <class>clases.arboles.Users</class>
+    <class>clases.arboles.DetallePago</class>
+    <class>clases.arboles.Zonas</class>
+    <class>clases.arboles.Lotepagos</class>
+    <class>clases.arboles.Usuarios</class>
+    <class>clases.arboles.Pagos</class>
+    <class>clases.arboles.Lotefacturas</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/rey"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
